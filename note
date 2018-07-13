@@ -15,3 +15,4 @@
 12. git branch //查看所有分支
 13. git merge dev //将分支dev的内容合并到当前分支
 14. git branch -d dev //删除分支dev
+15. git log --graph --pretty=oneline --abbrev-commit //查看合并分支图
