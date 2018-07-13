@@ -1,0 +1,13 @@
+1.  git init   //新建一个git 仓库
+2.  git add fileName //把文件fileName添加到仓库
+3.  git commit -m "a" //将文件提交到仓库
+4.  git log //按时间就近查看所有的git commit 记录          git log --pretty=oneline 简要信息
+5.  git reset --hard HEAD^  //回退到上一个git commit时的文件状态  HEAD代表当前版本，HEAD^代表上一个，HEAD^^代表上上一个，依次类推。HEAD~100 缩写
+6.  git reset --hard $commitId  //可以指定回退到git commit时的文件状态
+7.  git reflog  //可以查看历史上所有的git commit和reset的顺序
+8.  git checkout -- fileName  //将工作区里的内容丢弃，未被git add的内容为工作区内容
+9.  git reset HEAD fileName //将暂存区的内容返回到工作区，即当前状况是git add的相反操作
+10. 在github新建一个空的repository，将本地的repository关联起来。
+    git remote add origin git@github.com:QiHan0427/learngit.git
+    git push -u origin master
+
