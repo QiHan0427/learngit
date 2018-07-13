@@ -13,4 +13,4 @@
 
 11. git checkout -b dev  //新建并切换到分支dev 相当于两条命令:git branch dev 和 git checkout dev
 12. git branch //查看所有分支
-13. 
+13. git merge dev //将分支dev的内容合并到当前分支
