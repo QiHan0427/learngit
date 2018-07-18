@@ -20,3 +20,4 @@
 17. git merge --no-ff -m "merge with no-ff" dev  //保留分支dev上的commit历史信息
 18. git stash //可以将当前工作区储藏起来，切换其他分支做临时事情
 19. git stash pop //可以将18步中的内容恢复
+20. 
